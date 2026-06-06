@@ -1,58 +1,62 @@
 <h1 align="center">Hi, I'm Prasanna 👋</h1>
 
 <p align="center">
-  Software Engineering Graduate Student at Arizona State University<br/>
-  Building reliable AI systems, cloud workflows, automation, and data-backed engineering tools.
+  Software engineering grad student at Arizona State University.<br/>
+  I build AI systems, cloud workflows, automation, and tools that make messy problems easier to reason about.
 </p>
 
 <p align="center">
-  <a href="https://github.com/prasannanjaneyreddychalla">
-    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" />
+  <a href="https://www.linkedin.com/in/prasannanjaneyareddychalla/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
   </a>
   <a href="mailto:chprko2001@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
   </a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HERE">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+  <a href="https://github.com/prasannanjaneyreddychalla">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" />
   </a>
 </p>
 
 ---
 
-## About me
+## A little about me
 
-I'm a software engineering graduate student at Arizona State University working across AI systems, cloud infrastructure, automation, databases, Linux systems, and production support.
+I'm a software engineering graduate student at Arizona State University. Most of my work sits somewhere between AI systems, cloud infrastructure, automation, databases, Linux systems, and production support.
 
-I like problems where debugging, reliability, data, and clear thinking matter. Recently, that has meant building RAG workflows, AI agents, multi-agent research systems, SQL-backed retrieval tools, local LLM workflows with Ollama, and deep learning pipelines for large-scale chest X-ray datasets on ASU Research Computing.
+I like problems where the answer is not obvious at first glance. Debugging weird failures, making systems more reliable, understanding why something is expensive or slow, tracing bad data, cleaning up workflows no one wants to touch, that kind of thing. Not always glamorous, but very useful. Basically the engineering equivalent of finding lap time in the corners everyone else ignored.
 
-I care about AI systems that are useful, testable, grounded in real data, and economical instead of just producing confident nonsense with excellent punctuation.
+I've worked with Python, AWS, OpenStack, Enterprise Linux, relational databases, DynamoDB, MongoDB, vector databases, monitoring tools, and production support workflows. I've also worked on deep learning for large-scale chest X-ray datasets using ASU Research Computing.
+
+Lately, I've been building more in the AI and LLM space: RAG systems, agents, multi-agent workflows, LangChain, LangSmith, Ollama, embeddings, SQL-backed retrieval, and local model inference. I care about AI systems that are grounded in real data, testable, useful, and not just confidently wrong with perfect punctuation.
+
+Also, I'm a huge Formula 1 fan. I like how much of F1 comes down to systems thinking: strategy, reliability, tradeoffs, feedback loops, constraints, and tiny decisions that compound quickly. Turns out that maps weirdly well to software engineering, minus the carbon fiber and billion-dollar hospitality units.
 
 ---
 
-## What I work on
+## Things I like building
 
 <table>
   <tr>
-    <td><b>AI & LLM Systems</b></td>
+    <td><b>AI & LLM systems</b></td>
     <td>RAG, agents, multi-agent workflows, LangChain, LangSmith, Ollama, embeddings, retrieval pipelines</td>
   </tr>
   <tr>
-    <td><b>Cloud & Infrastructure</b></td>
-    <td>AWS, OpenStack, Enterprise Linux, automation, production support, monitoring</td>
+    <td><b>Cloud & infrastructure</b></td>
+    <td>AWS, OpenStack, Enterprise Linux, automation, monitoring, production support</td>
   </tr>
   <tr>
-    <td><b>Data & Storage</b></td>
-    <td>PostgreSQL, SQL workflows, DynamoDB, MongoDB, vector databases</td>
+    <td><b>Data systems</b></td>
+    <td>PostgreSQL, SQL workflows, DynamoDB, MongoDB, vector databases, retrieval-backed applications</td>
   </tr>
   <tr>
-    <td><b>Research & ML</b></td>
-    <td>Deep learning, medical imaging, CNNs, model evaluation, large-scale dataset workflows</td>
+    <td><b>ML & research workflows</b></td>
+    <td>Deep learning, medical imaging, CNNs, model evaluation, large-scale dataset pipelines</td>
   </tr>
 </table>
 
 ---
 
-## Tech I use
+## Tools I reach for
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,aws,linux,docker,git,github,postgres,mongodb,react,ts,vite,bash" />
@@ -68,70 +72,58 @@ I care about AI systems that are useful, testable, grounded in real data, and ec
 
 ---
 
-## Featured projects
+## A few projects
 
-### AutoResearch: Multi-agent research pipeline
+### AutoResearch: multi-agent research pipeline
 
-A lightweight multi-agent workflow that turns a plain-English question into an evidence-grounded Markdown report. It plans sub-questions, retrieves evidence, summarizes cited facts, critiques coverage, performs follow-up retrieval, and writes a final report with traceable outputs.
+A small, inspectable multi-agent workflow that turns a plain-English question into an evidence-grounded Markdown report. It plans sub-questions, retrieves evidence, summarizes facts, critiques coverage, runs follow-up retrieval when needed, and saves traceable outputs.
 
-**Focus:** agents, retrieval, structured handoffs, grounded reporting  
+**Built around:** agents, retrieval, structured handoffs, grounded reporting  
 **Repo:** [deepresearch-agentic](https://github.com/prasannanjaneyreddychalla/deepresearch-agentic)
 
 ---
 
 ### Chest X-Ray Medical Diagnosis with Deep Learning
 
-Deep learning project for chest X-ray classification using large-scale medical imaging data. Built around preprocessing, model evaluation, ROC/AUC analysis, and reproducible experiment workflows.
+A deep learning project for chest X-ray classification using large-scale medical imaging data. The work focuses on preprocessing, model evaluation, ROC/AUC analysis, and reproducible experiment workflows.
 
-**Focus:** medical imaging, CNNs, large datasets, ASU Research Computing  
+**Built around:** medical imaging, CNNs, large datasets, ASU Research Computing  
 **Repo:** [Chest-X-Ray-Medical-Diagnosis-with-Deep-Learning](https://github.com/prasannanjaneyreddychalla/Chest-X-Ray-Medical-Diagnosis-with-Deep-Learning)
 
 ---
 
-### RepoLens: Repository Insights Dashboard
+### RepoLens: repository insights dashboard
 
-A frontend prototype for analyzing GitHub repositories and presenting engineering insights, modernization suggestions, detected technologies, AI-readiness signals, and an Auto-PR pipeline preview.
+A frontend prototype for understanding GitHub repositories faster. It presents engineering insights, modernization suggestions, detected technologies, AI-readiness signals, and an Auto-PR pipeline preview.
 
-**Focus:** React, TypeScript, developer tooling, repository intelligence  
+**Built around:** React, TypeScript, developer tooling, repository intelligence  
 **Repo:** [repo-insights-dashboard](https://github.com/prasannanjaneyreddychalla/repo-insights-dashboard)
 
 ---
 
-### AI + LangChain Experiments
+### AI + LangChain experiments
 
-Experiments around LangChain, LLM workflows, retrieval patterns, and practical AI system building.
+A space for experimenting with LangChain, LLM workflows, retrieval patterns, and practical AI system building.
 
-**Focus:** LangChain, RAG, LLM workflows  
+**Built around:** LangChain, RAG, LLM workflows  
 **Repo:** [ai-langchain](https://github.com/prasannanjaneyreddychalla/ai-langchain)
 
 ---
 
-## GitHub stats
+## What I'm thinking about lately
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=prasannanjaneyreddychalla&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasannanjaneyreddychalla&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=prasannanjaneyreddychalla&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## Current interests
-
-- Building RAG systems that can be evaluated instead of merely admired
-- Multi-agent workflows with traceable intermediate steps
+- RAG systems that can actually be evaluated
+- Multi-agent workflows with useful traces, not mystery magic
 - SQL-backed retrieval and structured LLM outputs
-- Local inference with Ollama and economical model serving
-- Cloud automation, monitoring, chargeback workflows, and infrastructure reliability
-- Turning messy, ignored problems into systems that actually help people
+- Local inference with Ollama and more economical AI workflows
+- Cloud automation, monitoring, chargebacks, and infrastructure reliability
+- How to turn overlooked, messy problems into something useful
+- Why every F1 strategy call feels obvious exactly five laps too late
 
 ---
 
 ## How I work
 
-I ask a lot of questions, test assumptions, and try to understand the system before changing it. That habit helps me debug better, learn quickly, and take ownership of messy work that often gets ignored.
+I ask a lot of questions. To myself, to teammates, to the system, to the logs that are usually lying by omission. That habit helps me learn quickly, debug better, and catch the parts of a problem that are easy to ignore.
 
-I'm interested in software engineering roles where I can build reliable systems, understand problems deeply, and connect technical decisions to real operational or research impact.
+I like working on software where reliability matters, the data has to make sense, and technical choices connect back to real operational or research impact.
